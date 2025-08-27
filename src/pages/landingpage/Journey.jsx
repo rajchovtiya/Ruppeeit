@@ -12,7 +12,7 @@ function Journey({ setFromslow }) {
                     <div className='flex items-center gap-3 text-center md:text-left'>
                         <img src="./img/usergool.png" alt="" className='max-w-[60px] sm:max-w-[70px] md:max-w-[80px]' />
                         <h1 className='text-primary text-lg sm:text-xl md:text-2xl font-medium'>
-                            1000+ Indians <br className='md:hidden' /> learning daily
+                            1000+ Indians <br className='2xl:hidden' /> learning daily
                         </h1>
                     </div>
 

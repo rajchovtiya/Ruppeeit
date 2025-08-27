@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 
 function Navbar({ setIsOpen, isOpen, setFromslow }) {
     return (
-        <nav className="flex items-center justify-between padding py-4 relative z-[500]">
+        <nav className="flex items-center justify-between padding py-4 relative z-[10000] h-auto">
             {/* Logo */}
             <NavLink to={'/'}>
                 <img src="./img/logoru.png" alt="Logo" className='max-w-[120px] sm:max-w-[150px]' />
@@ -30,7 +30,7 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
 
             {/* Mobile Menu */}
             {isOpen && (
-                <div className="absolute top-full left-0 w-full bg-[#0E0D05] border-t border-primary text-secondri flex flex-col items-center gap-4 py-4 md:hidden z-50">
+                <div className="absolute top-full left-0 w-full bg-[#0E0D05] border-t border-primary text-secondri flex flex-col items-center gap-4 py-4 md:hidden z-[700]">
                     <NavLink
                         to={'/becomeHomepage'}
                         onClick={() => setIsOpen(false)}
@@ -45,7 +45,11 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
                     >
                         Blogs
                     </NavLink>
-                    <button className="text-secondri font-light px-6 py-2 rounded-3xl border border-primary navboxsedo">
+                    <button className="text-secondri font-light px-6 py-2 rounded-3xl border border-primary navboxsedo"
+                        onClick={() => {
+                            setFromslow(true)
+                            setIsOpen(false)
+                        }}>
                         Join Waitlist
                     </button>
                 </div>

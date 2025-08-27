@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa6";
 function Header({setFromslow}) {
     return (
         <div
-            className="mt-10 h-[554px] md:h-[600px] lg:h-[650px] flex items-center relative bg-no-repeat bg-cover"
+            className="mt-10 h-[380px] md:h-[600px] lg:h-[650px] flex items-center relative  z-[-1]"
             style={{ backgroundImage: "url('./img/pattern 1.png')" }}
         >
             <div className='padding2 z-[30] w-full md:w-3/4 lg:w-2/3'>
@@ -35,7 +35,7 @@ function Header({setFromslow}) {
             </div>
 
             {/* Decorative Images */}
-            <div className='absolute top-[-21%] md:top-[-21%] h-full z-[-1] left-0'>
+            <div className='absolute top-[-30%] md:top-[-21%] h-full z-[-1] left-0'>
                 <img src="./img/Vector (1).png" alt="" className='w-full md:w-auto' />
             </div>
             <div className='absolute right-0 top-[-30%] md:top-[-40%] h-full z-[-1]'>

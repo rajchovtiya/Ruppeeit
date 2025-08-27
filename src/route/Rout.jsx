@@ -16,7 +16,7 @@ function Rout() {
             <ClientOnboardingForm fromslow={fromslow} setFromslow={setFromslow} />
             <Routes>
                 <Route path='/' element={<Home  setFromslow={setFromslow} />} />
-                <Route path='/becomeHomepage' element={<BecomeHomepage setFromslow={setFromslow} />} />
+                <Route path='/becomeHomepage' element={<BecomeHomepage  />} />
             </Routes>
             <Footer />
         </div>
