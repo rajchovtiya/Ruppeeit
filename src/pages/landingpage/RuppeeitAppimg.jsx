@@ -1,6 +1,6 @@
 import React from 'react'
 
-function RuppeeitAppimg() {
+function RuppeeitAppimg({ setFromslow }) {
     return (
         <>
             <div className='mt-10 flex gap-3 flex-wrap justify-center md:justify-between w-full'>
@@ -27,7 +27,8 @@ function RuppeeitAppimg() {
 
             </div>
             <div className='flex items-center justify-center w-full mt-20 mb-16'>
-                <button className='font-bold text-2xl md:text-4xl text-primary py-2 md:py-8 px-28 md:px-40 bg-[#0E0D05] rounded-[50px]'>Join Waitlist</button>
+                <button className='font-bold text-2xl md:text-4xl text-primary 
+                py-2 md:py-8 px-28 md:px-40 bg-[#0E0D05] rounded-[50px]' onClick={() => setFromslow(true)}>Join Waitlist</button>
             </div>
         </>
     )

@@ -7,10 +7,10 @@ import BookDemo from '../../components/BookDemo'
 function BecomeHomepage() {
     return (
         <div>
-            <Header />
+            <Header  />
             <Creator />
             <Benefitscreator />
-            <BookDemo />
+            <BookDemo  />
         </div>
     )
 }

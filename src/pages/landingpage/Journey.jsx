@@ -1,7 +1,7 @@
 import React from 'react'
 import RuppeeitAppimg from './RuppeeitAppimg'
 
-function Journey() {
+function Journey({ setFromslow }) {
     return (
         <div className='mt-8 padding2'>
             {/* Stats Section */}
@@ -43,7 +43,7 @@ function Journey() {
 
             {/* App Image Section */}
             <div className='mt-8 md:mt-12'>
-                <RuppeeitAppimg />
+                <RuppeeitAppimg setFromslow={setFromslow} />
             </div>
         </div>
     )

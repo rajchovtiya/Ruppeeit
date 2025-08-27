@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaAngleRight } from "react-icons/fa6";
 
-function Header() {
+function Header({setFromslow}) {
     return (
         <div
             className="mt-10 h-[554px] md:h-[600px] lg:h-[650px] flex items-center relative bg-no-repeat bg-cover"
@@ -29,7 +29,7 @@ function Header() {
                 </div>
 
                 {/* Button */}
-                <button className='bg-primary flex items-center gap-3 sm:gap-4 px-6 sm:px-8 md:px-10 py-2 sm:py-3 rounded-3xl font-medium text-sm sm:text-base md:text-lg navboxsedo'>
+                <button className='bg-primary flex items-center gap-3 sm:gap-4 px-6 sm:px-8 md:px-10 py-2 sm:py-3 rounded-3xl font-medium text-sm sm:text-base md:text-lg navboxsedo' onClick={() => setFromslow(true)}>
                     Join Waitlist <FaAngleRight />
                 </button>
             </div>

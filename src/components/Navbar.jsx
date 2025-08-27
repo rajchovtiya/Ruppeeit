@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
-function Navbar({ setIsOpen, isOpen }) {
+function Navbar({ setIsOpen, isOpen, setFromslow }) {
     return (
         <nav className="flex items-center justify-between padding py-4 relative z-[500]">
             {/* Logo */}
@@ -17,7 +17,7 @@ function Navbar({ setIsOpen, isOpen }) {
             </div>
 
             {/* Desktop Button */}
-            <button className="hidden md:flex text-secondri font-light px-6 md:px-8 py-2 rounded-3xl border bg-[#0E0D05] border-primary navboxsedo items-center justify-center">
+            <button className="hidden md:flex text-secondri font-light px-6 md:px-8 py-2 rounded-3xl border bg-[#0E0D05] border-primary navboxsedo items-center justify-center" onClick={() => setFromslow(true)}>
                 Join Waitlist
             </button>
 

@@ -13,7 +13,7 @@ function BookDemo() {
             <div className="min-h-[200px] sm:min-h-[400px] flex items-center justify-center flex-col gap-5 relative z-10">
                 <div className="w-full max-w-4xl px-2 text-center">
                     <h1 className="text-secondri text-3xl sm:text-4xl lg:text-6xl font-normal">
-                        Join as a Creator Today 
+                        Join as a Creator Today
                     </h1>
                 </div>
 
@@ -21,13 +21,15 @@ function BookDemo() {
                 <div className="absolute rounded-full bookdemo w-[200px] h-[200px] z-[-1] opacity-5"></div>
 
                 {/* Button */}
-                <div
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1mQuZHqF7qY7-GFQoQ8gm3V2P4wPYfS_ltILhLZGu0cSwow/viewform" target='_blank'>
+                    <div
 
-                    className="bg-white text-black py-2 px-7 rounded-xl text-sm sm:text-base mt-8 shadow-md hover:shadow-lg
+                        className="bg-white text-black py-2 px-7 rounded-xl text-sm sm:text-base mt-8 shadow-md hover:shadow-lg
                      transition cursor-pointer"
-                >
-                    Join Waitlist
-                </div>
+                    >
+                        Become a Creator
+                    </div>
+                </a>
             </div>
         </div>
     );

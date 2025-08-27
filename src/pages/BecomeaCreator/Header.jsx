@@ -23,9 +23,11 @@ function Header() {
                         </h1>
                     </div>
 
-                    <button className='bg-primary flex items-center gap-2 sm:gap-4 px-6 sm:px-8 md:px-10 py-2 sm:py-3 rounded-3xl font-medium navboxsedo text-sm sm:text-base md:text-lg mx-auto xl:mx-0'>
-                        Become a Creator <FaAngleRight />
-                    </button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1mQuZHqF7qY7-GFQoQ8gm3V2P4wPYfS_ltILhLZGu0cSwow/viewform" target='_blank'>
+                        <button className='bg-primary flex items-center gap-2 sm:gap-4 px-6 sm:px-8 md:px-10 py-2 sm:py-3 rounded-3xl font-medium navboxsedo text-sm sm:text-base md:text-lg mx-auto xl:mx-0' >
+                            Become a Creator <FaAngleRight />
+                        </button>
+                    </a>
                 </div>
 
                 {/* Right Side Image */}
@@ -34,10 +36,10 @@ function Header() {
 
                     {/* Background vectors (hidden on small screens) */}
                     <div className='absolute right-0 top-0 h-full  md:block'>
-                        <img src="./img/Vector 1 (1).png" alt=""  />
+                        <img src="./img/Vector 1 (1).png" alt="" />
                     </div>
                     <div className='absolute bottom-[-60%] left-[-61%]  lg:block'>
-                        <img src="./img/Vector 2.png" alt=""  />
+                        <img src="./img/Vector 2.png" alt="" />
                     </div>
                 </div>
             </div>
