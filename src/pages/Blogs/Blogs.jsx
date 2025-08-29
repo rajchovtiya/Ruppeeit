@@ -190,9 +190,9 @@ const blogs = [
         date: "17 Jun 2025",
     },
     {
-        title: "Setting Up a WhatsApp Business Profile: Step-by-Step Guide",
+        title: "SHow Much YouTube Pays Per View in 2025",
         desc: "Quickly set up a WhatsApp Business account! Download the app, verify your number, personalize your profile, and enhance communication.",
-        img: "https://cloudflare-images.seekho.in/blog-image/compressed-banner/d24e6215-8944-44bc-81e0-9cdef9c32e65/ff5d02cee843485c9fae7c977d8b5ed3.webp",
+        img: "https://cloudflare-images.seekho.in/blog-image/compressed-banner/50807e30-054f-4018-becc-a8d438815804/5ac79ef1933e43d499d56ad691c1432b.webp",
         date: "17 Jun 2025",
     },
     {
@@ -204,7 +204,7 @@ const blogs = [
     {
         title: "How Artificial Intelligence is Used in Daily Life",
         desc: "Discover examples of artificial intelligence in daily life, from smart assistants to fraud detection. Explore how AI is making daily tasks faster and smarter!",
-        img: "https://cloudflare-images.seekho.in/blog-image/compressed-banner/d24e6215-8944-44bc-81e0-9cdef9c32e65/ff5d02cee843485c9fae7c977d8b5ed3.webp",
+        img: "https://cloudflare-images.seekho.in/blog-image/compressed-banner/dab8e758-77dd-45da-9760-9e45b019e967/705312186aa04e1d9cf7d53ad46c09b4.webp",
         date: "6 Jun 2025",
     },
     {
