@@ -6,7 +6,7 @@ function RuppeeitAppimg({ setFromslow }) {
             <div className='mt-10 flex gap-3 flex-wrap justify-center md:justify-between w-full'>
                 <div className=' w-full h-[760px] xl:w-[540px] rounded-[30px] bg-black  px-5 relative overflow-hidden flex items-center flex-col'>
                     <h1 className='font-medium text-secondri text-center text-3xl mt-12'>Download the </h1>
-                    <h1 className='font-medium text-secondri text-center text-3xl'>Ruppeeit App</h1>
+                    <h1 className='font-medium text-secondri text-center text-3xl'>Rupeeit App</h1>
 
                     <img src="./img/iPhone 13 Pro.png" alt="" className='absolute bottom-[0%] ' />
                 </div>
@@ -27,8 +27,8 @@ function RuppeeitAppimg({ setFromslow }) {
 
             </div>
             <div className='flex items-center justify-center w-full mt-20 mb-16'>
-                <button className='font-bold text-2xl md:text-4xl text-primary 
-                py-5 md:py-8 px-3 w-[300px] md:w-[468px] bg-[#0E0D05] rounded-[50px]' onClick={() => setFromslow(true)}>Join Waitlist</button>
+                <button className='font-bold text-2xl  text-primary 
+                py-5 md:py-4 px-3 w-[300px] md:w-[350px] bg-[#0E0D05] rounded-[50px]' onClick={() => setFromslow(true)}>Join Waitlist</button>
             </div>
         </>
     )

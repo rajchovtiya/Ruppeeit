@@ -13,9 +13,9 @@ const Footer = () => {
                     <NavLink to='/'>
                         <img src="/img/logoru.png" alt="Logo" className="w-36 mb-4 mx-auto md:mx-0 cursor-pointer" />
                     </NavLink>
-                    <p className="text-sm leading-relaxed">
+                    {/* <p className="text-sm leading-relaxed">
                         Empowering businesses with modern digital solutions. We strive to deliver value and creativity.
-                    </p>
+                    </p> */}
                 </div>
 
                 {/* Quick Links */}
@@ -23,10 +23,8 @@ const Footer = () => {
                     <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
                     <ul className="space-y-2 text-sm">
                         <li><NavLink to="/" className="hover:text-yellow-400 transition">Home</NavLink></li>
-                        <li><NavLink to="/About" className="hover:text-yellow-400 transition">About</NavLink></li>
                         <li><NavLink to="/Blogs" className="hover:text-yellow-400 transition">Blogs</NavLink></li>
                         <li><NavLink to="/becomeHomepage" className="hover:text-yellow-400 transition">Become A Creator</NavLink></li>
-                        <li><NavLink to="/OurWorks" className="hover:text-yellow-400 transition">Contact</NavLink></li>
 
                     </ul>
                 </div>
@@ -44,7 +42,7 @@ const Footer = () => {
                 {/* Contact & Socials */}
                 <div>
                     <h2 className="text-white text-lg font-semibold mb-4">Contact</h2>
-                    <p className="text-sm mb-1 hover:text-yellow-400 cursor-pointer">📧 Support : Support@yourize.in</p>
+                    <p className="text-sm mb-1 hover:text-yellow-400 cursor-pointer">📧 Support : Support@Rupeeit.in</p>
                     <p className="text-sm mb-4 hover:text-yellow-400 cursor-pointer">📧 Enquiry : connect@protip.in</p>
                     <div className="flex justify-center md:justify-start space-x-4 text-xl mt-4">
                         <a href="https://www.linkedin.com/company/yourizein/posts/?feedView=all" className="hover:text-yellow-400"><FaLinkedinIn /></a>
@@ -60,7 +58,7 @@ const Footer = () => {
                 <p className="text-gray-400 hover:text-yellow-400 cursor-pointer">
                     📍 WeWork Latitude, 9th floor, RMZ Latitude Commercial, Bellary Road, Hebbal, Near Godrej Apt, Bangalore, Karnataka 560024
                 </p>
-                <p className="text-gray-500">© {new Date().getFullYear()} Ruppeeit. All rights reserved</p>
+                <p className="text-gray-500">© {new Date().getFullYear()} Rupeeit. All rights reserved</p>
             </div>
         </footer>
     );

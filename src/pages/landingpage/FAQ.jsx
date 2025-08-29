@@ -64,7 +64,7 @@ export default function FAQ() {
                     Frequently Asked <br /> Questions
                 </h2>
                 <p className="text-center text-gray-400 mb-10 text-sm sm:text-base">
-                    Still have any questions? Contact our team <br/> via{" "}
+                    Still have any questions? Contact our team <br /> via{" "}
                     <span className="underline break-words">hello@protip.com</span>
                 </p>
 

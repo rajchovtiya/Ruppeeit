@@ -5,6 +5,7 @@ import Home from '../pages/landingpage/Home'
 import Footer from '../components/Footer'
 import BecomeHomepage from '../pages/BecomeaCreator/BecomeHomepage'
 import ClientOnboardingForm from '../components/ClientOnboardingForm'
+import Blogs from '../pages/Blogs/Blogs'
 
 function Rout() {
     const [isOpen, setIsOpen] = useState(false)
@@ -15,8 +16,9 @@ function Rout() {
             <Navbar isOpen={isOpen} setIsOpen={setIsOpen} setFromslow={setFromslow} />
             <ClientOnboardingForm fromslow={fromslow} setFromslow={setFromslow} />
             <Routes>
-                <Route path='/' element={<Home  setFromslow={setFromslow} />} />
-                <Route path='/becomeHomepage' element={<BecomeHomepage  />} />
+                <Route path='/' element={<Home setFromslow={setFromslow} />} />
+                <Route path='/becomeHomepage' element={<BecomeHomepage />} />
+                <Route path='Blogs' element={<Blogs />} />
             </Routes>
             <Footer />
         </div>

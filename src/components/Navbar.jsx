@@ -1,25 +1,34 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 function Navbar({ setIsOpen, isOpen, setFromslow }) {
+    const pathname = useLocation()
+
     return (
-        <nav className="flex items-center justify-between padding py-4 relative z-[10000] h-auto">
+        <nav className="flex items-center justify-between padding relative z-[10000] h-auto">
             {/* Logo */}
             <NavLink to={'/'}>
                 <img src="./img/logoru.png" alt="Logo" className='max-w-[120px] sm:max-w-[150px]' />
             </NavLink>
 
-            {/* Desktop Menu */}
-            <div className="hidden md:flex border border-primary items-center gap-5 text-secondri py-2 px-6 md:px-10 rounded-3xl justify-between navboxsedo w-auto">
-                <NavLink to={'/becomeHomepage'} className='font-light cursor-pointer'>Become a Creator</NavLink>
-                <NavLink to={'/blogs'} className='font-light cursor-pointer'>Blogs</NavLink>
-            </div>
+            {/* Center Links + Button (Desktop) */}
+            <div className="hidden md:flex items-center gap-6 md:w-[68%] xl:w-[60%] justify-between">
+                <div className="border border-primary flex items-center gap-5 text-secondri py-2 px-6 md:px-10 rounded-3xl navboxsedo">
+                    <NavLink to={'/becomeHomepage'} className='font-light cursor-pointer'>Become a Creator</NavLink>
+                    <NavLink to={'/blogs'} className='font-light cursor-pointer'>Blogs</NavLink>
+                </div>
 
-            {/* Desktop Button */}
-            <button className="hidden md:flex text-secondri font-light px-6 md:px-8 py-2 rounded-3xl border bg-[#0E0D05] border-primary navboxsedo items-center justify-center" onClick={() => setFromslow(true)}>
-                Join Waitlist
-            </button>
+                {/* Show button only if not on becomeHomepage */}
+                {pathname.pathname !== "/becomeHomepage" && (
+                    <button
+                        className="text-secondri font-light px-6 md:px-8 py-2 rounded-3xl border bg-[#0E0D05] border-primary navboxsedo ml-6"
+                        onClick={() => setFromslow(true)}
+                    >
+                        Join Waitlist
+                    </button>
+                )}
+            </div>
 
             {/* Mobile Menu Icon */}
             <div className="md:hidden">
@@ -45,11 +54,13 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
                     >
                         Blogs
                     </NavLink>
-                    <button className="text-secondri font-light px-6 py-2 rounded-3xl border border-primary navboxsedo"
+                    <button
+                        className="text-secondri font-light px-6 py-2 rounded-3xl border border-primary navboxsedo"
                         onClick={() => {
                             setFromslow(true)
                             setIsOpen(false)
-                        }}>
+                        }}
+                    >
                         Join Waitlist
                     </button>
                 </div>

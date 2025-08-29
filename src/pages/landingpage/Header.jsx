@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa6";
 function Header({setFromslow}) {
     return (
         <div
-            className="mt-10 h-[380px] md:h-[600px] lg:h-[650px] flex items-center relative  z-[-1]"
+            className="mt-10 h-[380px] md:h-[600px] lg:h-[650px] flex items-center relative  "
             style={{ backgroundImage: "url('./img/pattern 1.png')" }}
         >
             <div className='padding2 z-[30] w-full md:w-3/4 lg:w-2/3'>
@@ -14,7 +14,7 @@ function Header({setFromslow}) {
                         India’s Financial
                     </h1>
                     <h1 className='text-secondri text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug'>
-                        Literacy App
+                        Literacy Ab
                     </h1>
                 </div>
 
@@ -29,7 +29,7 @@ function Header({setFromslow}) {
                 </div>
 
                 {/* Button */}
-                <button className='bg-primary flex items-center gap-3 sm:gap-4 px-6 sm:px-8 md:px-10 py-2 sm:py-3 rounded-3xl font-medium text-sm sm:text-base md:text-lg navboxsedo' onClick={() => setFromslow(true)}>
+                <button className='bg-primary flex items-center gap-3 sm:gap-4 px-6 sm:px-8 md:px-10 py-2 sm:py-3 rounded-3xl font-medium text-sm sm:text-base md:text-lg navboxsedo z-[900] cursor-pointer' onClick={() => setFromslow(true)}>
                     Join Waitlist <FaAngleRight />
                 </button>
             </div>
