@@ -37,8 +37,8 @@ function Journey({ setFromslow }) {
 
             {/* Heading */}
             <div className='flex items-center justify-center flex-col mt-10 md:mt-14 text-center px-4'>
-                <h1 className='font-bold text-3xl sm:text-3xl md:text-4xl'>Begin Your Journey</h1>
-                <h1 className='font-bold text-3xl sm:text-3xl md:text-4xl'>Towards Financial Freedom</h1>
+                <h1 className='font-bold text-2xl text-center md:text-4xl'>Begin Your Journey</h1>
+                <h1 className='font-bold text-2xl text-center md:text-4xl'>Towards Financial Freedom</h1>
             </div>
 
             {/* App Image Section */}
