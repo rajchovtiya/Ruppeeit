@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import BecomeHomepage from '../pages/BecomeaCreator/BecomeHomepage'
 import ClientOnboardingForm from '../components/ClientOnboardingForm'
 import Blogs from '../pages/Blogs/Blogs'
+import BlogDetail from '../pages/Blogs/BlogDetail'
 
 function Rout() {
     const [isOpen, setIsOpen] = useState(false)
@@ -19,6 +20,8 @@ function Rout() {
                 <Route path='/' element={<Home setFromslow={setFromslow} />} />
                 <Route path='/becomeHomepage' element={<BecomeHomepage />} />
                 <Route path='Blogs' element={<Blogs />} />
+                <Route path="/blogs/:url" element={<BlogDetail />} />
+
             </Routes>
             <Footer />
         </div>

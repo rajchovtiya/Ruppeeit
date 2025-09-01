@@ -6,7 +6,7 @@ import { FiYoutube } from "react-icons/fi";
 const Footer = () => {
     return (
         <footer className="bg-black text-gray-300 padding2 py-12 mt-14">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center md:text-left">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center md:text-left">
 
                 {/* Logo + About */}
                 <div>
@@ -30,20 +30,20 @@ const Footer = () => {
                 </div>
 
                 {/* Company Links */}
-                <div>
+                {/* <div>
                     <h2 className="text-white text-lg font-semibold mb-4">Company</h2>
                     <ul className="space-y-2 text-sm">
                         <li><NavLink to="/terms" className="hover:text-yellow-400 transition">Terms & Conditions</NavLink></li>
                         <li><NavLink to="/refund-policy" className="hover:text-yellow-400 transition">Refund Policy</NavLink></li>
                         <li><NavLink to="/privacy-policy" className="hover:text-yellow-400 transition">Privacy Policy</NavLink></li>
                     </ul>
-                </div>
+                </div> */}
 
                 {/* Contact & Socials */}
                 <div>
                     <h2 className="text-white text-lg font-semibold mb-4">Contact</h2>
                     <p className="text-sm mb-1 hover:text-yellow-400 cursor-pointer">📧 Support : Support@Rupeeit.in</p>
-                    <p className="text-sm mb-4 hover:text-yellow-400 cursor-pointer">📧 Enquiry : connect@protip.in</p>
+                    <p className="text-sm mb-4 hover:text-yellow-400 cursor-pointer">📧 Enquiry : connect@Rupeeit.in</p>
                     <div className="flex justify-center md:justify-start space-x-4 text-xl mt-4">
                         <a href="https://www.linkedin.com/company/yourizein/posts/?feedView=all" className="hover:text-yellow-400"><FaLinkedinIn /></a>
                         <a href="https://www.facebook.com/profile.php?id=61579010946823&rdid=xCjSWDa9NwIX7epG#" className="hover:text-yellow-400"><FaFacebookF /></a>

@@ -18,7 +18,7 @@ export default function WaitlistForm({ fromslow, setFromslow }) {
             {/* FORM MODAL */}
             {fromslow && (
                 <div
-                    className={`fixed inset-0 z-[600] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4 ${show ? "block" : "hidden"}`}
+                    className={`fixed inset-0 z-[1000000] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4 ${show ? "block" : "hidden"}`}
                     onClick={handleClose}
                 >
                     <div

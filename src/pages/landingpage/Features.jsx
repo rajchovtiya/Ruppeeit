@@ -4,10 +4,11 @@ const FeaturesData = [
     {
         id: 1,
         img: "./img/rupeeit 10.png",
-        title1: "Daily fresh",
-        title2: "content in",
-        title3: "English + Hindi"
+        title1: "Short, interactive",
+        title2: "videos for ",
+        title3: "quick learning"
     },
+
     {
         id: 2,
         img: "./img/rupeeit 9.png",

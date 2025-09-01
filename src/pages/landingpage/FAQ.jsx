@@ -65,7 +65,7 @@ export default function FAQ() {
                 </h2>
                 <p className="text-center text-gray-400 mb-10 text-sm sm:text-base">
                     Still have any questions? Contact our team <br /> via{" "}
-                    <span className="underline break-words">hello@protip.com</span>
+                    <span className="underline break-words">connect@Rupeeit.in</span>
                 </p>
 
                 <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4 border-t border-gray-700">
