@@ -51,7 +51,7 @@ function BlogDetail() {
                     <img
                         src={blog.img}
                         alt={blog.title}
-                        className="w-full h-52 sm:h-72 md:h-[460px]  object-fill"
+                        className="w-full h-52 sm:h-72 md:h-[460px] object-cover"
                     />
                 </div>
 

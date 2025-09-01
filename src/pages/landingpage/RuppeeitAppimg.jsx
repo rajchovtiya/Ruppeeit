@@ -11,15 +11,15 @@ function RuppeeitAppimg({ setFromslow }) {
                     <img src="./img/iPhone 13 Pro.png" alt="" className='absolute bottom-[0%] ' />
                 </div>
                 <div className='flex flex-col gap-4 flex-wrap w-full xl:w-auto'>
-                    <div className='w-full h-[250px] xl:w-[540px] xl:h-[238px] bg-black rounded-[30px] flex  items-center flex-col pt-3 px-3 relative '>
+                    <div className='w-full h-[250px] md:h-[350px] xl:w-[540px] xl:h-[238px] bg-black rounded-[30px] flex  items-center flex-col pt-3 px-3 relative '>
                         <h1 className='text-primary font-medium text-[25px] relative '>Signup in 2 minutes</h1>
                         <img src="./img/SignupEmail 1.png" alt="" className='absolute bottom-0 w-[80%] sm:w-[500px] xl:w-auto ' />
                     </div>
-                    <div className='w-full h-[250px] xl:w-[540px] xl:h-[238px] bg-black rounded-[30px] flex  items-center flex-col pt-3 px-3 relative '>
+                    <div className='w-full h-[250px] md:h-[350px] xl:w-[540px] xl:h-[238px] bg-black rounded-[30px] flex  items-center flex-col pt-3 px-3 relative '>
                         <h1 className='text-primary font-medium text-[25px] relative '>Access videos instantly</h1>
                         <img src="./img/HomeScreenver2. 1.png" alt="" className='absolute bottom-0 w-[80%] sm:w-[500px] xl:w-auto ' />
                     </div>
-                    <div className='w-full h-[250px] xl:w-[540px] xl:h-[238px] bg-black rounded-[30px] flex  items-center flex-col pt-3 px-3 relative '>
+                    <div className='w-full h-[250px] md:h-[350px] xl:w-[540px] xl:h-[238px] bg-black rounded-[30px] flex  items-center flex-col pt-3 px-3 relative '>
                         <h1 className='text-primary font-medium text-[25px] relative '>Save, Like & Share</h1>
                         <img src="./img/Flow screen 1.png" alt="" className='absolute bottom-0 w-[80%] sm:w-[450px] xl:w-auto ' />
                     </div>

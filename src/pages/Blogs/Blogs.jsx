@@ -46,18 +46,18 @@ function Blogs() {
                                 ref={(el) => (blogRefs.current[i] = el)} // store each card ref
                                 className="bg-[#0b0b0b] border border-[#2a2a2a] rounded-2xl overflow-hidden shadow-xl scrolstrigs"
                             >
-                                <div className="flex flex-col md:flex-row items-stretch">
+                                <div className="flex flex-col lg:flex-row items-stretch">
                                     {/* Image */}
-                                    <div className="md:w-1/3 w-full overflow-hidden">
+                                    <div className="lg:w-1/3 w-full overflow-hidden">
                                         <img
                                             src={blog.img}
                                             alt={blog.title}
-                                            className="w-full h-48 md:h-full object-cover about-img"
+                                            className="w-full h-48 sm:h-96 lg:h-full object-cover "
                                         />
                                     </div>
 
                                     {/* Content */}
-                                    <div className="md:w-2/3 w-full p-6 flex flex-col justify-between about-text">
+                                    <div className="lg:w-2/3 w-full p-6 flex flex-col justify-between about-text">
                                         <div>
                                             <p
 

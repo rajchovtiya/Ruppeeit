@@ -4,7 +4,7 @@ function Benefitscreator() {
     return (
         <div className='padding2 mt-14 '>
             <div className='flex items-center justify-center'>
-                <h1 className='text-3xl md:text-4xl xl:text-5xl text-primary text-center leading-snug'>
+                <h1 className='text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-primary text-center leading-snug'>
                     Benefits of Becoming a <br /> Creator with Rupeeit
                 </h1>
             </div>
@@ -77,7 +77,7 @@ function Benefitscreator() {
                     </div>
 
                 </div>
-            </div>
+            </div>  
         </div>
     )
 }
