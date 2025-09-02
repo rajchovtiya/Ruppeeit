@@ -9,7 +9,7 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
         <nav className="flex items-center justify-between padding relative z-[10000] h-auto">
             {/* Logo */}
             <NavLink to={'/'}>
-                <img src="./img/logoru.png" alt="Logo" className='max-w-[120px] sm:max-w-[150px]' />
+                <img src="/img/logoru.png" alt="Logo" className='max-w-[120px] sm:max-w-[150px]' />
             </NavLink>
 
             {/* Center Links + Button (Desktop) */}
