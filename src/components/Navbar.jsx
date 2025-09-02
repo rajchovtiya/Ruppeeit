@@ -15,12 +15,12 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
             {/* Center Links + Button (Desktop) */}
             <div className="hidden md:flex items-center gap-6 md:w-[68%] xl:w-[60%] justify-between">
                 <div className="border border-primary flex items-center gap-5 text-secondri py-2 px-6 md:px-10 rounded-3xl navboxsedo">
-                    <NavLink to={'/becomeHomepage'} className='font-light cursor-pointer'>Become a Creator</NavLink>
+                    <NavLink to={'/BecomeaCreator'} className='font-light cursor-pointer'>Become a Creator</NavLink>
                     <NavLink to={'/blogs'} className='font-light cursor-pointer'>Blogs</NavLink>
                 </div>
 
-                {/* Show button only if not on becomeHomepage */}
-                {pathname.pathname !== "/becomeHomepage" && (
+                {/* Show button only if not on BecomeaCreator */}
+                {pathname.pathname !== "/BecomeaCreator" && (
                     <button
                         className="text-secondri font-light px-6 md:px-8 py-2 rounded-3xl border bg-[#0E0D05] border-primary navboxsedo ml-6"
                         onClick={() => setFromslow(true)}
@@ -41,7 +41,7 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
             {isOpen && (
                 <div className="absolute top-full left-0 w-full bg-[#0E0D05] border-t border-primary text-secondri flex flex-col items-center gap-4 py-4 md:hidden z-[700]">
                     <NavLink
-                        to={'/becomeHomepage'}
+                        to={'/BecomeaCreator'}
                         onClick={() => setIsOpen(false)}
                         className='font-light cursor-pointer'
                     >

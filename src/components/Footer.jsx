@@ -24,7 +24,7 @@ const Footer = () => {
                     <ul className="space-y-2 text-sm">
                         <li><NavLink to="/" className="hover:text-yellow-400 transition" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</NavLink></li>
                         <li><NavLink to="/Blogs" className="hover:text-yellow-400 transition">Blogs</NavLink></li>
-                        <li><NavLink to="/becomeHomepage" className="hover:text-yellow-400 transition">Become A Creator</NavLink></li>
+                        <li><NavLink to="/BecomeaCreator" className="hover:text-yellow-400 transition">Become A Creator</NavLink></li>
 
                     </ul>
                 </div>
