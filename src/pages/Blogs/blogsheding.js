@@ -1,6 +1,6 @@
 export const blogs = [
     {
-        title: "Understanding the Role of Stock Exchanges, Depositories, and Regulatory Bodies.",
+        title: "Understanding the Role of Stock Exchanges, Depositories, and Regulatory Bodies",
         desc: "Stock exchanges, depositories, and SEBI together make India’s financial markets safe and efficient. From trading shares to safeguarding them digitally, here’s how the system works...",
         img: "./img/blog1.jpeg",
         date: "2 September 2025",

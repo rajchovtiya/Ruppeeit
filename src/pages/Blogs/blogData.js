@@ -1,6 +1,6 @@
 const blogData = [
     {
-        url: "Understanding-the-Role-of-Stock-Exchanges-Depositories-and-Regulatory-Bodies.",
+        url: "Understanding-the-Role-of-Stock-Exchanges-Depositories-and-Regulatory-Bodies",
         title: "Understanding the Role of Stock Exchanges, Depositories, and Regulatory Bodies",
         img: "/img/blog1.jpeg",
         sections: [
