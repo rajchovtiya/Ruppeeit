@@ -4,7 +4,7 @@ export const blogs = [
         desc: "Stock exchanges, depositories, and SEBI together make India’s financial markets safe and efficient. From trading shares to safeguarding them digitally, here’s how the system works...",
         img: "./img/blog1.jpeg",
         date: "2 September 2025",
-        url: "Understanding-the-Role-of-Stock-Exchanges-Depositories-and-Regulatory-Bodies."
+        url: "Understanding-the-Role-of-Stock-Exchanges-Depositories-and-Regulatory-Bodies"
     },
     {
         title: "Risk Management Concepts: Hedging and Diversification",
