@@ -80,7 +80,7 @@ function Blogs() {
                                                 />
                                                 <div>
                                                     <p className="text-sm text-white font-light">
-                                                        Rupeeit Official
+                                                        Rupeeit 
                                                     </p>
                                                     <p className="text-xs text-gray-400">{blog.date}</p>
                                                 </div>
