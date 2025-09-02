@@ -44,14 +44,14 @@ function BlogDetail() {
     );
 
     return (
-        <div className="px-4 sm:px-6 lg:px-8 mt-10 text-white">
+        <div className="px-2 sm:px-6 lg:px-8 mt-10 text-white">
             <div className="max-w-4xl mx-auto bg-[#0b0b0b] border border-[#2a2a2a] rounded-2xl shadow-lg overflow-hidden">
                 {/* Blog Image */}
                 <div className="w-full">
                     <img
                         src={blog.img}
                         alt={blog.title}
-                        className="w-full h-52 sm:h-72 md:h-[460px] object-cover"
+                        className="w-full h-72 sm:h-72 md:h-[460px] object-cover"
                     />
                 </div>
 

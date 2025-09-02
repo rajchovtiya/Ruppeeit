@@ -52,7 +52,7 @@ function Blogs() {
                                         <img
                                             src={blog.img}
                                             alt={blog.title}
-                                            className="w-full h-48 sm:h-96 lg:h-full object-cover "
+                                            className="w-full h-48` sm:h-96 lg:h-full object-cover "
                                         />
                                     </div>
 
