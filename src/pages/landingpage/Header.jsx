@@ -36,7 +36,7 @@ function Header({ setFromslow }) {
                     <img
                         src="./img/Rectangle 90.png"
                         alt="rectangle"
-                        className="absolute w-full bottom-0 z-[3235545443245] hidden md:block"
+                        className="absolute w-full bottom-0 z-[32355] hidden md:block"
                     />
                 </div>
             </div>

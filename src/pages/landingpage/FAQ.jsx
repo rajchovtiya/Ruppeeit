@@ -3,50 +3,50 @@ import React, { useState } from "react";
 const faqData = [
     {
         id: 1,
-        question: "What is Ruppeit and who is it for?",
+        question: "What is Rupeeit and who is it for?",
         answer:
-            "Rupeeit is India’s Financial Literacy App that makes money simple for everyone – from students and professionals to homemakers and business owners. With short videos and daily tips anyone can start learning. It’s also a platform for finance professionals to become creators and grow their influence.",
+            "Rupeeit is a platform where users can learn and understand money through short, reel-like videos created by certified experts not influencers. Anyone who wants to gain financial knowledge, from beginners to professionals, can use our app.",
     },
     {
         id: 2,
-        question: "Will I get personal guidance?",
+        question: "Is Rupeeit free to use?",
         answer:
-            "Yes! Rupeeit is built for all experience levels, with tools and support to help you market effectively.",
+            "Yes! Rupeeit is currently free for all users. You can explore and learn without paying any subscription fee.",
     },
     {
         id: 3,
-        question: "Is there a community to connect with others?",
+        question: "What kind of topics can I learn on Rupeeit?",
         answer:
-            "By automating marketing and improving brand visibility, Rupeeit helps attract and convert potential clients.",
+            "You’ll find bite-sized lessons on personal finance, stock markets, investments, savings, insurance, taxes, and more all explained in simple, easy-to-understand videos.",
     },
     {
         id: 4,
-        question: "Can school/college students join?",
+        question: "Who creates the content on Rupeeit?",
         answer:
-            "Absolutely. Rupeeit is designed to work for individual advisors as well as teams.",
+            "All content is created by certified finance experts, ensuring accuracy and reliability. Unlike many platforms, Rupeeit does not rely on influencers for financial education. ",
     },
     {
         id: 5,
-        question: "How do creators earn from the program?",
+        question: "How is Rupeeit different from YouTube or Instagram reels?",
         answer:
-            "A full walkthrough of features, use cases, and how Rupeeit can work specifically for your business.",
+            "Unlike random influencer videos, Rupeeit offers structured, trustworthy, and expert-driven financial content designed specifically to educate learners in a fun, engaging way. ",
     },
     {
         id: 6,
-        question: "Do I get training or support as a creator?",
+        question: " Can I learn at my own pace?",
         answer:
-            "Yes. Rupeeit can integrate with your existing branding or digital tools.",
+            "Absolutely. Rupeeit’s short video format allows you to watch, pause, and revisit topics anytime, making it easy to learn at your own spee",
     },
     {
         id: 7,
-        question: "Is there a certification or recognition for creators?",
+        question: "Do I need prior financial knowledge to use Rupeeit?",
         answer:
-            "We offer tiered pricing based on the tools and services you use. Contact us for custom pricing.",
+            "Not at all! Rupeeit is built for everyone whether you’re completely new to money matters or looking to deepen your financial skills. ",
     },
     {
         id: 8,
-        question: "Can I create in my own language?",
-        answer: "Usually within 24–48 hours after your inquiry.",
+        question: "Can I request topics or ask questions to experts?",
+        answer: " Yes! Rupeeit allows learners to suggest topics and interact with experts, making sure the content stays relevant to your learning needs.",
     },
 ];
 
@@ -65,7 +65,7 @@ export default function FAQ() {
                 </h2>
                 <p className="text-center text-gray-400 mb-10 text-sm sm:text-base">
                     Still have any questions? Contact our team <br /> via{" "}
-                    <span className="underline break-words">connect@Rupeeit.in</span>
+                    <span className="underline break-words">connect@rupeeit.in</span>
                 </p>
 
                 <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4 border-t border-gray-700">

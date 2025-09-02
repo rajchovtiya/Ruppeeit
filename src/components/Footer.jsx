@@ -42,8 +42,8 @@ const Footer = () => {
                 {/* Contact & Socials */}
                 <div>
                     <h2 className="text-white text-lg font-semibold mb-4">Contact</h2>
-                    <p className="text-sm mb-1 hover:text-yellow-400 cursor-pointer">📧 Support : Support@Rupeeit.in</p>
-                    <p className="text-sm mb-4 hover:text-yellow-400 cursor-pointer">📧 Enquiry : connect@Rupeeit.in</p>
+                    <p className="text-sm mb-1 hover:text-yellow-400 cursor-pointer">📧 Support : Support@rupeeit.in</p>
+                    <p className="text-sm mb-4 hover:text-yellow-400 cursor-pointer">📧 Enquiry : connect@rupeeit.in</p>
                     <div className="flex justify-center md:justify-start space-x-4 text-xl mt-4">
                         <a href="https://www.linkedin.com/company/yourizein/posts/?feedView=all" className="hover:text-yellow-400"><FaLinkedinIn /></a>
                         <a href="https://www.facebook.com/profile.php?id=61579010946823&rdid=xCjSWDa9NwIX7epG#" className="hover:text-yellow-400"><FaFacebookF /></a>
