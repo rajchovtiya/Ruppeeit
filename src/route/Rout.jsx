@@ -7,6 +7,8 @@ import BecomeHomepage from '../pages/BecomeaCreator/BecomeHomepage'
 import ClientOnboardingForm from '../components/ClientOnboardingForm'
 import Blogs from '../pages/Blogs/Blogs'
 import BlogDetail from '../pages/Blogs/BlogDetail'
+import Terms from '../pages/TermsConditions/termsconditions'
+import PrivacyPolicy from '../pages/PrivacyPolicy/privacypolicy'
 
 function Rout() {
     const [isOpen, setIsOpen] = useState(false)
@@ -21,7 +23,8 @@ function Rout() {
                 <Route path='/BecomeaCreator' element={<BecomeHomepage />} />
                 <Route path='Blogs' element={<Blogs />} />
                 <Route path="/blogs/:url" element={<BlogDetail />} />
-
+                <Route path='/terms-conditions' element={<Terms />} />
+                <Route path='/privacy-policy' element={<PrivacyPolicy />} />
             </Routes>
             <Footer />
         </div>

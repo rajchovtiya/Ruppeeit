@@ -25,6 +25,8 @@ const Footer = () => {
                         <li><NavLink to="/" className="hover:text-yellow-400 transition" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</NavLink></li>
                         <li><NavLink to="/Blogs" className="hover:text-yellow-400 transition">Blogs</NavLink></li>
                         <li><NavLink to="/BecomeaCreator" className="hover:text-yellow-400 transition">Become A Creator</NavLink></li>
+                        <li><NavLink to="/terms-conditions" className="hover:text-yellow-400 transition">Terms & Conditions</NavLink></li>
+                        <li><NavLink to="/privacy-policy" className="hover:text-yellow-400 transition">Privacy Policy</NavLink></li>
 
                     </ul>
                 </div>
