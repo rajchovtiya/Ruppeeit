@@ -9,6 +9,7 @@ import Blogs from '../pages/Blogs/Blogs'
 import BlogDetail from '../pages/Blogs/BlogDetail'
 import Terms from '../pages/TermsConditions/termsconditions'
 import PrivacyPolicy from '../pages/PrivacyPolicy/privacypolicy'
+import ShareVideo from '../pages/ShareVideo'
 
 function Rout() {
     const [isOpen, setIsOpen] = useState(false)
@@ -25,6 +26,8 @@ function Rout() {
                 <Route path="/blogs/:url" element={<BlogDetail />} />
                 <Route path='/terms-conditions' element={<Terms />} />
                 <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+                <Route path="/share/videos/:video_id" element={<ShareVideo />} />
+
             </Routes>
             <Footer />
         </div>
