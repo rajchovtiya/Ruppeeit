@@ -83,11 +83,11 @@ body {
 /* First row scroll left */
 @keyframes scroll-left {
   from {
-    transform: translateX(0);
+    /* transform: translateX(0); */
   }
 
   to {
-    transform: translateX(-50%);
+    transform: translateX(-300%);
   }
 }
 
