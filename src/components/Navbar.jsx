@@ -22,7 +22,8 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
                 {/* Show button only if not on BecomeaCreator */}
                 {pathname.pathname !== "/BecomeaCreator" && (
                     <button
-                        className="text-secondri font-light px-6 md:px-8 py-2 rounded-3xl border bg-[#0E0D05] border-primary navboxsedo ml-6"
+                        className="text-secondri font-light px-6 md:px-8 py-2 rounded-3xl border bg-[#0E0D05] border-primary navboxsedo
+                         ml-6"
                         onClick={() => setFromslow(true)}
                     >
                         Join Waitlist

@@ -27,7 +27,6 @@ function Rout() {
                 <Route path='/terms-conditions' element={<Terms />} />
                 <Route path='/privacy-policy' element={<PrivacyPolicy />} />
                 <Route path="/share/videos/:video_id" element={<ShareVideo />} />
-
             </Routes>
             <Footer />
         </div>
