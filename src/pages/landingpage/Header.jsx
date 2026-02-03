@@ -68,7 +68,7 @@ function Header({ setFromslow }) {
                     className="bg-primary flex items-center justify-center md:justify-start gap-2 sm:gap-3 md:gap-4 px-5 sm:px-7 md:px-10 py-2 sm:py-3 rounded-3xl font-medium text-sm sm:text-base md:text-lg navboxsedo z-50 cursor-pointer"
                     onClick={() => setFromslow(true)}
                 >
-                    Join Waitlist <FaAngleRight />
+                    download app <FaAngleRight />
                 </button>
             </div>
 

@@ -26,7 +26,7 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
                          ml-6"
                         onClick={() => setFromslow(true)}
                     >
-                        Join Waitlist
+                        download app
                     </button>
                 )}
             </div>
@@ -62,7 +62,7 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
                             setIsOpen(false)
                         }}
                     >
-                        Join Waitlist
+                        download app
                     </button>
                 </div>
             )}
