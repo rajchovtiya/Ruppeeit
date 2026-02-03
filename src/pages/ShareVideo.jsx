@@ -51,7 +51,7 @@ export default function ShareVideo() {
                 rel="noopener noreferrer"
                 className="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-xl shadow-md transition"
             >
-                📲 Download App
+                📲 Download app
             </a>
 
              {showPopup && (

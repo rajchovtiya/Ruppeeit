@@ -26,7 +26,7 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
                          ml-6"
                         onClick={() => setFromslow(true)}
                     >
-                        download app
+                        Download app
                     </button>
                 )}
             </div>
@@ -62,7 +62,7 @@ function Navbar({ setIsOpen, isOpen, setFromslow }) {
                             setIsOpen(false)
                         }}
                     >
-                        download app
+                        Download app
                     </button>
                 </div>
             )}
