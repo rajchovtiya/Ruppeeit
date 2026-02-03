@@ -1,140 +1,60 @@
 import useClientOnboardingForm from "../customHooks/useClientOnboardingForm";
 
 export default function WaitlistForm({ fromslow, setFromslow }) {
+    // Custom hook mathi only popup related states use kariye che
     const {
-        register,
-        handleSubmit,
-        onSubmit,
-        errors,
         show,
         handleClose,
-        isLoading,
         showSuccess,
         setShowSuccess,
     } = useClientOnboardingForm(fromslow, setFromslow);
 
     return (
         <>
-            {/* FORM MODAL */}
+            {/* ================= IMAGE POPUP MODAL ================= */}
             {fromslow && (
                 <div
-                    className={`fixed inset-0 z-[4545465655454] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4 ${show ? "block" : "hidden"}`}
-                    onClick={handleClose}
+                    // Full screen dark overlay
+                    className={`fixed inset-0 z-[4545465655454] flex items-center justify-center 
+                    bg-black/70 backdrop-blur-sm px-4 ${show ? "block" : "hidden"}`}
+                    onClick={handleClose} // Bahar click karta popup close
                 >
                     <div
-                        className={`relative w-full max-w-lg xl:w-[35%] z-[500] bg-white rounded-2xl p-8 shadow-2xl transition-transform transform ${show ? "scale-100 opacity-100" : "scale-95 opacity-0"}`}
-                        onClick={(e) => e.stopPropagation()}
+                        // Popup container
+                        className={`relative w-full max-w-sm sm:max-w-md bg-white 
+                        rounded-2xl p-4 shadow-2xl transition-transform transform 
+                        ${show ? "scale-100 opacity-100" : "scale-95 opacity-0"}`}
+                        onClick={(e) => e.stopPropagation()} // Andar click par close na thay
                     >
-                        {/* Close */}
+                        {/* ❌ Close Button */}
                         <button
                             onClick={handleClose}
-                            className="absolute top-4 right-4 text-gray-500 hover:text-red-500 text-2xl font-bold"
+                            className="absolute top-3 right-3 text-gray-500 hover:text-red-500 text-2xl font-bold"
                         >
                             &times;
                         </button>
 
-                        {/* Header */}
-                        <h2 className="text-center text-2xl sm:text-3xl font-bold text-black mb-6">
-                            Join the Waitlist 🚀
-                        </h2>
-
-                        {/* Form */}
-                        <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
-                            {/* Inputs */}
-                            {[
-                                {
-                                    name: "name",
-                                    label: "Full Name",
-                                    validation: { required: "Full Name is required" }
-                                },
-                                {
-                                    name: "email",
-                                    label: "Email",
-                                    validation: {
-                                        required: "Email is required",
-                                        pattern: {
-                                            value: /\S+@\S+\.\S+/,
-                                            message: "Invalid email address"
-                                        }
-                                    }
-                                },
-                                {
-                                    name: "mobile",
-                                    label: "Mobile Number",
-                                    validation: {
-                                        required: "Mobile number is required",
-                                        pattern: {
-                                            value: /^[0-9]{10}$/,
-                                            message: "Must be a 10-digit number"
-                                        }
-                                    }
-                                }
-                            ].map(({ name, label, validation }) => (
-                                <div key={name}>
-                                    <label className="block mb-1 font-medium text-gray-700">{label}</label>
-                                    <input
-                                        {...register(name, validation)}
-                                        className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-yellow-400 outline-none transition"
-                                    />
-                                    {errors[name] && (
-                                        <p className="text-sm text-red-500 mt-1">{errors[name].message}</p>
-                                    )}
-                                </div>
-                            ))}
-
-                            {/* Submit Button */}
-                            <div className="text-center">
-                                <button
-                                    type="submit"
-                                    disabled={isLoading}
-                                    className={`w-full py-3 rounded-lg font-semibold transition ${isLoading
-                                        ? "bg-yellow-300 text-black cursor-not-allowed opacity-70"
-                                        : "bg-yellow-400 text-black hover:bg-yellow-500"
-                                        }`}
-                                >
-                                    {isLoading ? (
-                                        <div className="flex items-center justify-center gap-2">
-                                            <svg
-                                                className="animate-spin h-5 w-5 text-black"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <circle
-                                                    className="opacity-25"
-                                                    cx="12"
-                                                    cy="12"
-                                                    r="10"
-                                                    stroke="currentColor"
-                                                    strokeWidth="4"
-                                                />
-                                                <path
-                                                    className="opacity-75"
-                                                    fill="currentColor"
-                                                    d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
-                                                />
-                                            </svg>
-                                            Submitting...
-                                        </div>
-                                    ) : (
-                                        "Join Waitlist"
-                                    )}
-                                </button>
-                            </div>
-                        </form>
+                        {/* 📱 Image Only */}
+                        <img
+                            src="./img/downlod.jpeg"   // 👉 aa jagyae tamari image no path aapo
+                            alt="Download App QR"
+                            className="  rounded-xl h-[550px] w-[400px] object-center"
+                        />
                     </div>
                 </div>
             )}
 
-            {/* ✅ Success Dialog */}
+            {/* ================= SUCCESS POPUP (OPTIONAL) ================= */}
             {showSuccess && (
                 <div className="fixed inset-0 z-[200] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4">
                     <div
-                        className="bg-white max-w-md w-full p-8 rounded-2xl shadow-xl text-center animate-fadeIn"
+                        className="bg-white max-w-md w-full p-8 rounded-2xl shadow-xl text-center"
                         onClick={(e) => e.stopPropagation()}
                     >
-                        <h2 className="text-2xl font-bold text-green-600 mb-4">✅ Thanks for showing interest!</h2>
-                        {/* <p className="text-gray-800 mb-6">
-                            You’ve been added to our waitlist. We’ll notify you soon!
-                        </p> */}
+                        <h2 className="text-2xl font-bold text-green-600 mb-4">
+                            ✅ Thanks for showing interest!
+                        </h2>
+
                         <button
                             onClick={() => setShowSuccess(false)}
                             className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition"

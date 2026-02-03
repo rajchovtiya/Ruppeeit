@@ -47,10 +47,10 @@ const Footer = () => {
                     <p className="text-sm mb-1 hover:text-yellow-400 cursor-pointer">📧 Support : Support@rupeeit.in</p>
                     <p className="text-sm mb-4 hover:text-yellow-400 cursor-pointer">📧 Enquiry : connect@rupeeit.in</p>
                     <div className="flex justify-center md:justify-start space-x-4 text-xl mt-4">
-                        <a href="https://www.linkedin.com/company/yourizein/posts/?feedView=all" className="hover:text-yellow-400"><FaLinkedinIn /></a>
+                        <a href="https://www.linkedin.com/company/rupeeit/" className="hover:text-yellow-400"><FaLinkedinIn /></a>
                         <a href="https://www.facebook.com/profile.php?id=61579010946823&rdid=xCjSWDa9NwIX7epG#" className="hover:text-yellow-400"><FaFacebookF /></a>
-                        <a href="https://www.instagram.com/yourize.in?igsh=MW5menNkbzBkMWI3bQ==&utm_source=ig_contact_invite" className="hover:text-yellow-400"><FaInstagram /></a>
-                        <a href="https://www.youtube.com/@yourize" className="hover:text-yellow-400"><FiYoutube /></a>
+                        <a href="https://www.instagram.com/rupeeit.in?igsh=MW5menNkbzBkMWI3bQ%3D%3D&utm_source=qr" className="hover:text-yellow-400"><FaInstagram /></a>
+                        <a href="https://www.youtube.com/@rupeeit" className="hover:text-yellow-400"><FiYoutube /></a>
                     </div>
                 </div>
             </div>
