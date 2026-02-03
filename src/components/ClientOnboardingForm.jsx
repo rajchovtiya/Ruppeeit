@@ -37,7 +37,7 @@ export default function WaitlistForm({ fromslow, setFromslow }) {
                         {/* 📱 Image Only */}
                         <img
                             src="./img/downlod.jpeg"   // 👉 aa jagyae tamari image no path aapo
-                            alt="Download App QR"
+                            alt="Download app QR"
                             className="  rounded-xl h-[550px] w-[400px] object-center"
                         />
                     </div>

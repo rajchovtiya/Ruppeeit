@@ -28,7 +28,7 @@ function RuppeeitAppimg({ setFromslow }) {
             </div>
             <div className='flex items-center justify-center w-full mt-20 mb-16'>
                 <button className='font-bold text-2xl  text-primary 
-                py-5 md:py-4 px-3 w-[300px] md:w-[350px] bg-[#0E0D05] rounded-[50px]' onClick={() => setFromslow(true)}>download app</button>
+                py-5 md:py-4 px-3 w-[300px] md:w-[350px] bg-[#0E0D05] rounded-[50px]' onClick={() => setFromslow(true)}>Download app</button>
             </div>
         </>
     )
